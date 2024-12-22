@@ -18,8 +18,8 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <Label Text="You (X)" Grid.Row="0" Grid.Column="0" Margin="5"/>
-                <Label Text="Opponent (O)" Grid.Row="0" Grid.Column="2" Margin="5" HorizontalTextAlignment="End"/>
+                <Label Text="Игрок 1 (X)" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                <Label Text="Игрок 2 (O)" Grid.Row="0" Grid.Column="2" Margin="5" HorizontalTextAlignment="End"/>
 
                 <Button x:Name="button1" Text="" Grid.Row="1" Grid.Column="0" BackgroundColor="Gray" Clicked="button_Clicked"/>
                 <Button x:Name="button2" Text="" Grid.Row="1" Grid.Column="1" BackgroundColor="Gray" Clicked="button_Clicked"/>
@@ -32,8 +32,8 @@
                 <Button x:Name="button9" Text="" Grid.Row="3" Grid.Column="2" BackgroundColor="Gray" Clicked="button_Clicked"/>
 
                 <StackLayout x:Name="gameOverStackLayout" Grid.Row="0" Grid.Column="1" IsVisible="False">
-                    <Label Text="Game Over" HorizontalTextAlignment="Center"/>
-                    <Button Text="Play again" Clicked="playagain_Clicked"/>
+                    <Label Text="Игра завершена" HorizontalTextAlignment="Center"/>
+                    <Button Text="Играть снова" Clicked="playagain_Clicked"/>
 
                 </StackLayout>
 
